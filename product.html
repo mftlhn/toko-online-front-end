@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <title>SAILORCO Hypewear</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><strong>SAILOR</strong>CO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ACCOUNT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="login.html">LOGIN</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="signup.html">SIGNUP</a>
+                        </div>
+                    </li>
+                </ul>
+                <a class="nav-link text-white" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="favorite.html" class="nav-link text-white"><i class="fas fa-heart"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <br>
+    <br>
+    <br>
+
+    <!-- breadcrumb -->
+    <div class="container">
+        <nav">
+            <ol class="breadcrumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                <li class="breadcrumb-item"><a href="gallery.html">GALLERY</a></li>
+                <li class="breadcrumb-item active">PRODUCT</li>
+            </ol>
+            </nav>
+    </div>
+    <!-- akhir breadcrumb -->
+
+    <!-- Product -->
+    <section id="product" class="product">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-5">
+                    <figure class="figure">
+                        <img src="assets/img/12.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption product-thumbnail-container d-flex justify-content-between">
+                            <a href="">
+                                <img src="assets/img/thumbnail/1.jpg" class="imgs">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/thumbnail/2.jpg" class="imgs">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/thumbnail/3.jpg" class="imgs">
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-4 col-sm-4">
+                    <h3>Anchor Zombie</h3>
+                    <p class="text-muted">IDR 125.000</p>
+                    <button class="btn btn-sm" style="background-color: #EAEAEF; color: white;" type="button">
+                        <i class="fas fa-minus-circle"></i>
+                    </button>
+                    <span class="mx-2">20</span>
+                    <button class="btn btn-sm btn-success" type="button">
+                        <i class="fas fa-plus-circle"></i>
+                    </button>
+
+                    <div class="btn-product">
+                        <a href="" class="btn btn-primary text-white">Add to Cart</a>
+                        <a href="" class="btn btn-warning text-white">Add to
+                            Wishlist</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Product -->
+    <br>
+
+    <!-- review -->
+    <section class="product-description p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description"
+                                role="tab" aria-controls="description" aria-selected="true">Product Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab"
+                                aria-controls="review" aria-selected="false">Reviews</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3 " id="myTabContent">
+                        <div class="tab-pane fade show active product-review" id="description" role="tabpanel"
+                            aria-labelledby="description-tab">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quasi repellat
+                                dolorum deserunt modi voluptas nesciunt, quidem labore impedit soluta doloremque illum
+                                voluptatum iusto sapiente velit laboriosam sit voluptatibus hic?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ab ratione quae, magnam id
+                                distinctio rerum qui error repudiandae rem natus reiciendis maiores animi porro facilis
+                                consequuntur ex non? Aspernatur?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe tenetur inventore in illo
+                                nobis ut praesentium velit. Ad vero nesciunt molestiae, cumque debitis voluptas totam id
+                                eum, porro unde nam.</p>
+                        </div>
+                        <div class="tab-pane fade product-review" id="review" role="tabpanel"
+                            aria-labelledby="review-tab">
+                            <div class="row">
+                                <div class="col-2 d-none d-md-block">
+                                    <img src="assets/img/2.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Robet Downey Jr.</h5>
+                                    <p>Produknya bagus</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 d-none d-md-block">
+                                    <img src="assets/img/2.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Robet Downey Jr.</h5>
+                                    <p>Produknya bagus</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 d-none d-md-block">
+                                    <img src="assets/img/2.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Robet Downey Jr.</h5>
+                                    <p>Produknya bagus</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 d-none d-md-block">
+                                    <img src="assets/img/2.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Robet Downey Jr.</h5>
+                                    <p>Produknya bagus</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2 d-none d-md-block">
+                                    <img src="assets/img/2.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5>Robet Downey Jr.</h5>
+                                    <p>Produknya bagus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of review -->
+
+    <!-- similar product -->
+    <section class="similar-product">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h3>Similar Product</h3>
+                    <p>Pelengkap pakaian di atas</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="assets/img/16.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Hatty Bomb</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p>IDR 125.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="assets/img/6.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Hatty Bomb</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p>IDR 125.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="assets/img/1.jpg" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Hatty Bomb</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p>IDR 125.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of similar product -->
+
+    <!-- Footer -->
+    <footer class="border-top p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="" class="m-2 text-center">
+                        <img src="assets/img/social/fb.png" alt="">
+                    </a>
+                    <a href="" class="m-2">
+                        <img src="assets/img/social/twt.png" alt="">
+                    </a>
+                    <a href="" class="m-2">
+                        <img src="assets/img/social/ig.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>Allright Reserved SAILORCO 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $('.imgs').on('mouseover', function () {
+            $(this).addClass('hovers');
+        });
+        $('.imgs').on('mouseout', function () {
+            $(this).removeClass('hovers');
+        });
+        $('.figure-img').on('mouseover', function () {
+            $(this).addClass('shadow');
+        });
+        $('.figure-img').on('mouseout', function () {
+            $(this).removeClass('shadow');
+        });
+    </script>
+</body>
+
+</html>
